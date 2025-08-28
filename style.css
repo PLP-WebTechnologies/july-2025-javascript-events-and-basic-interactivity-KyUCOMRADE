@@ -1,0 +1,28 @@
+body.dark-mode {
+    background-color: #222;
+    color: #f4f4f4;
+}
+
+.faq-answer {
+    display: none;
+    margin-left: 20px;
+}
+
+.faq-answer.visible {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.tab-btn.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}

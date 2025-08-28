@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Interactive Page!</h1>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+    <!-- Counter Game -->
+    <div>
+        <h2>Counter Game</h2>
+        <button id="increaseBtn">Increase</button>
+        <span id="counter">0</span>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+        <h2 class="faq-question">What is JavaScript?</h2>
+        <p class="faq-answer">JavaScript is a programming language used to make web pages interactive.</p>
+        <h2 class="faq-question">What is the DOM?</h2>
+        <p class="faq-answer">The DOM is a tree-like structure representing HTML elements that can be manipulated with JavaScript.</p>
+    </div>
+
+    <!-- Tabbed Interface -->
+    <div class="tabs">
+        <button class="tab-btn" data-tab="tab1">Tab 1</button>
+        <button class="tab-btn" data-tab="tab2">Tab 2</button>
+
+        <div id="tab1" class="tab-content">Content for Tab 1</div>
+        <div id="tab2" class="tab-content">Content for Tab 2</div>
+    </div>
+
+    <!-- Form Section -->
+    <form id="userForm">
+        <h2>Sign Up Form</h2>
+        <label>
+            Name: <input type="text" id="name">
+        </label>
+        <span class="error" id="nameError"></span><br>
+
+        <label>
+            Email: <input type="email" id="email">
+        </label>
+        <span class="error" id="emailError"></span><br>
+
+        <label>
+            Password: <input type="password" id="password">
+        </label>
+        <span class="error" id="passwordError"></span><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
